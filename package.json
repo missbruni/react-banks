@@ -1,0 +1,23 @@
+{
+  "name": "tech-test",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "server": "node server/server.js",
+    "start": "concurrently -p name -n \"REACT,SERVER\" -c \"cyan,blue\" \"react-scripts start\" \"nodemon -e js --watch server --watch server.js --ignore node_modules --exec 'npm run server'\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
