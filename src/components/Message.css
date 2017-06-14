@@ -1,0 +1,25 @@
+.message-component {
+  display: inline-block;
+  width: 100%;
+  background-color: #F4F6F9;
+}
+
+.message-logo {
+ padding: 20px 0;
+ width: 150px;
+ height: 150px;
+}
+
+.message-header {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.message-footer {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.strong {
+  font-weight: bold;
+}
