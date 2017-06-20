@@ -1,0 +1,45 @@
+.footer-component {
+  width: 100%;
+  border-top: solid 1px #eaeaea;
+}
+
+.footer-container1, .footer-container2 {
+  width: 50%;
+  display: inline-block;
+}
+
+.footer-container1 p, .footer-text2 li {
+  margin: 0;
+  display: inline-block;
+
+  font-size: 12px;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #adb2ba;
+}
+
+.footer-icon {
+  transform: translateY(40%);
+  margin: 0;
+  padding: 0;
+}
+
+.footer-text2 {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-text2 li {
+  display: inline;
+}
+
+.footer-text2 a {
+  color: #adb2ba;
+  text-decoration: none;
+}
+
+.footer-text2 a:hover {
+  color: grey;
+  text-decoration: none;
+}

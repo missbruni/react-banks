@@ -1,0 +1,52 @@
+.Login {
+  text-align: center;
+}
+
+.login-form {
+  margin: 0 auto;
+  max-width: 400px;
+  padding-bottom: 30px;
+}
+
+.bank-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bank-title .bank-name {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bank-title p {
+  font-size: 14px;
+  color: #5c5cb5;
+}
+
+.login-form input {
+  font-size: 15px;
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+  margin-bottom: 10px;
+  height: 33px;
+}
+.submit-button {
+  margin: 0 auto;
+  background: red;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 35px;
+  width: 90%;
+  margin-bottom: 10px;
+  height: 33px;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #cccccc;
+  padding-left: 20px;
+  font-size: 15px;
+  transition: opacity 250ms ease-in-out;
+}

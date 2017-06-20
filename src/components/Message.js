@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Message.css';
 import logo from '../images/logo.png'
 
-class Message extends Component {
+export default class Message extends Component {
   render() {
     return (
       <div className='message-component'>
@@ -13,5 +13,3 @@ class Message extends Component {
     )
   }
 }
-
-export default Message;

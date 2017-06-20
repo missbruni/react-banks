@@ -1,28 +1,8 @@
 [
-    // {
-    //     "connectorId": "mock",
-    //     "displayName": "mock",
-    //     "logoURL": "~/images/logos/mock.png",
-    //     "authMethod": "password",
-    //     "fields": [
-    //         {
-    //             "id": "username",
-    //             "displayName": "Username",
-    //             "isPassword": false,
-    //             "type": "text"
-    //         },
-    //         {
-    //             "id": "password",
-    //             "displayName": "Password",
-    //             "isPassword": true,
-    //             "type": "password"
-    //         }
-    //     ]
-    // },
     {
         "connectorId": "barclays",
         "displayName": "Barclays",
-        "logoURL": "~/images/logos/barclays.png",
+        "logoURL": "/images/logos/barclays.svg",
         "authMethod": "membershipNumber",
         "fields": [
             {
@@ -57,7 +37,7 @@
     {
         "connectorId": "hsbc",
         "displayName": "HSBC",
-        "logoURL": "~/images/logos/hsbc.png",
+        "logoURL": "/images/logos/hsbc.svg",
         "authMethod": "password",
         "fields": [
             {
@@ -83,9 +63,9 @@
         ]
     },
     {
-        "connectorId": "lloyds",
+        "connectorId": "Co-op",
         "displayName": "Lloyds",
-        "logoURL": "~/images/logos/lloyds.png",
+        "logoURL": "/images/logos/co-op.svg",
         "authMethod": "password",
         "fields": [
             {
@@ -114,7 +94,7 @@
     {
         "connectorId": "halifax",
         "displayName": "Halifax",
-        "logoURL": "~/images/logos/halifax.png",
+        "logoURL": "/images/logos/halifax.svg",
         "authMethod": "password",
         "fields": [
             {
@@ -143,7 +123,7 @@
     {
         "connectorId": "natwest",
         "displayName": "Natwest",
-        "logoURL": "~/images/logos/natwest.png",
+        "logoURL": "/images/logos/natwest.svg",
         "authMethod": "password",
         "fields": [
             {
@@ -172,36 +152,7 @@
     {
         "connectorId": "rbs",
         "displayName": "RBS England and Wales",
-        "logoURL": "~/images/tec/rbs.png",
-        "authMethod": "password",
-        "fields": [
-            {
-                "id": "customerNumber",
-                "displayName": "Customer Number",
-                "isPassword": false,
-                "type": "number",
-                "tip": "This is your date of birth (ddmmyy) followed by your unique number which identifies you to the bank"
-            },
-            {
-                "id": "pin",
-                "displayName": "Pin",
-                "isPassword": true,
-                "type": "password",
-                "tip": "A 4 digits number"
-            },
-            {
-                "id": "password",
-                "displayName": "Password",
-                "isPassword": true,
-                "type": "password",
-                "tip": "6 to 20 characters long. It contains both letter and numbers"
-            }
-        ]
-    },
-    {
-        "connectorId": "rbs-digital",
-        "displayName": "RBS Scotland",
-        "logoURL": "~/images/logos/rbs-digital.png",
+        "logoURL": "/images/logos/rbs.svg",
         "authMethod": "password",
         "fields": [
             {
@@ -227,62 +178,4 @@
             }
         ]
     }
-    // {
-    //     "connectorId": "santander",
-    //     "displayName": "Santander",
-    //     "logoURL": "~/images/logos/santander.png",
-    //     "authMethod": "password",
-    //     "fields": [
-    //         {
-    //             "id": "personalId",
-    //             "displayName": "Personal Id",
-    //             "isPassword": false,
-    //             "type": "number"
-    //         },
-    //         {
-    //             "id": "password",
-    //             "displayName": "Password",
-    //             "isPassword": true,
-    //             "type": "password"
-    //         },
-    //         {
-    //             "id": "securityNumber",
-    //             "displayName": "Security Number",
-    //             "isPassword": true,
-    //             "type": "password"
-    //         }
-    //     ],
-    //     "fieldCollections": [
-    //         {
-    //             "id": "securityQuestions",
-    //             "displayName": "Security Questions",
-    //             "fields": [
-    //                 {
-    //                     "id": "Place of Birth",
-    //                     "displayName": "Place of Birth",
-    //                     "isPassword": false,
-    //                     "type": "text"
-    //                 },
-    //                 {
-    //                     "id": "Name of first school",
-    //                     "displayName": "Name of first school",
-    //                     "isPassword": false,
-    //                     "type": "text"
-    //                 },
-    //                 {
-    //                     "id": "Name of secondary school",
-    //                     "displayName": "Name of secondary school",
-    //                     "isPassword": false,
-    //                     "type": "text"
-    //                 },
-    //                 {
-    //                     "id": "Father's middle name",
-    //                     "displayName": "Father's middle name",
-    //                     "isPassword": false,
-    //                     "type": "text"
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // }
 ]

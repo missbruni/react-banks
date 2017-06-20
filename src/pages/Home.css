@@ -1,0 +1,28 @@
+.home {
+  text-align: center;
+}
+
+.banks-list {
+  background: #fff;
+  margin-top: 20px;
+}
+
+.bank-logo-wrapper {
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.bank-logo {
+  border: solid 1px #cccccc;
+
+  width: 60%;
+  min-height: 70px;
+  padding: 25px 20px;
+  display: inline-block;
+  
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

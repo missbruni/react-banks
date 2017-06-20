@@ -2,6 +2,8 @@
   display: inline-block;
   width: 100%;
   background-color: #F4F6F9;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
 }
 
 .message-logo {
@@ -16,7 +18,7 @@
 }
 
 .message-footer {
-  font-size: 14px;
+  font-size: 12px;
   padding-bottom: 10px;
 }
 
